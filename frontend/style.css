@@ -1,0 +1,25 @@
+/* frontend/style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #004c99;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#libros {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.libro {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
